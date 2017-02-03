@@ -38,6 +38,7 @@ ul {
 .hud__left {
   float:left;
   margin-left: 2rem;
+  transform: rotate(-3deg);
 }
 
 .char {
@@ -80,25 +81,28 @@ ul {
   font-weight: bolder;
   margin-top: 0;
   color: #ddd;
-  font-family: brandon grotesque, neo sans, avenir, sans-serif;
-  border-bottom: 1px solid #ddd;
+ padding-bottom: .25rem;
+  border-bottom: 2px solid #ddd;
   padding-right: .5rem;
-  border-right: 1px solid #ddd;
+  border-right: 2px solid #52aab6;
   /*letter-spacing: 0.2rem;*/
   transform: scaleX
 }
 
 .hud__middle {
-  float: left;
 
-  position: relative;
-  left: 10rem;
-  bottom: 8rem;
-  font-family: 'Ubuntu', sans-serif;
+
+
 }
 
-.kickass {
-
+.hud__middle__top {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /*background-color*/: green;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  transform: translate(-50%,-50%)
 }
 
 .kickass__enemy {
@@ -115,36 +119,66 @@ ul {
 .skull {
   height: 3.75rem;
   width: 3.75rem;
-  opacity: 0.7;
-  position: absolute;
-  top: -120%;
-  left: 50%;
-  transform: translateX(-50%);
+  opacity: .7;
+  margin-bottom: 1rem;
+
 }
 
 .kickass {
-  background-color: yellow;
-  color: white;
+/*  /*background-color*/: yellow; */
+  font: white;
   font-style: italic;
   font-size: 1.8rem;
   font-weight: bold;
-  padding-top: 0;
-  margin-top: 0;
+  margin: 0;
+}
 
+.white {
+  color: white;
 }
 
 .hud__right {
   margin-right: 3rem;
+  transform: rotate(3deg);
+
+
 }
 
 .abilities {
   float: right;
+  /*background-color*/: yellow;
+}
+
+.gun__ammo {
+  color: white;
+  font-family: sans-serif;
+  font-size: .75rem;
+  margin: 0;
+}
+
+.gun__ammo span {
+  font-size: 1.5rem;
+  font-style: italic;
+
 }
 
 .abilities img {
-  opacity: .85;
+  opacity: ;
+  /*background-color*/: green;
 }
 
 .ability {
   height: 4rem;
+}
+
+.gun {
+  float: right;
+
+
+}
+
+.gun__img {
+  height: 3.5rem;
+  width: 9rem;
+  border-right: 2px solid #52aab6;
 }
