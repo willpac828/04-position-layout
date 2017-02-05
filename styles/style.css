@@ -27,11 +27,12 @@ ul {
 .hud {
 
   position:fixed;
-  top: 77%;
+  top: 74%;
   padding-left: 2rem;
   padding-top: 1rem;
     /*necessary? */
   width: 100vw;
+  border: 1px solid black;
 
 }
 
@@ -51,6 +52,7 @@ ul {
   font-family: 'Ubuntu', sans-serif;
   position: relative;
   transform: rotateX(-30deg);
+  bottom: 1rem;
 
   /* bottom: 1rem; */
 }
@@ -121,7 +123,12 @@ ul {
   width: 3.75rem;
   opacity: .7;
   margin-bottom: 1rem;
+}
 
+.eliminated {
+  position: relative;
+  top: 4rem;
+  opacity: .7;
 }
 
 .kickass {
@@ -147,6 +154,7 @@ ul {
 .abilities {
   float: right;
   /*background-color*/: yellow;
+  border: 1px solid black;
 }
 
 .gun__ammo {
@@ -154,6 +162,8 @@ ul {
   font-family: sans-serif;
   font-size: .75rem;
   margin: 0;
+  position: relative;
+  left: 5rem;
 }
 
 .gun__ammo span {
@@ -165,6 +175,7 @@ ul {
 .abilities img {
   opacity: ;
   /*background-color*/: green;
+
 }
 
 .ability {
@@ -173,7 +184,9 @@ ul {
 
 .gun {
   float: right;
-
+  border: 1px solid black;
+  position: relative;
+  bottom:1.25rem;
 
 }
 
