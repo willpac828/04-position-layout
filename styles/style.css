@@ -27,12 +27,12 @@ ul {
 .hud {
 
   position:fixed;
-  top: 74%;
+  top: 72%;
   padding-left: 2rem;
   padding-top: 1rem;
     /*necessary? */
   width: 100vw;
-  border: 1px solid black;
+
 
 }
 
@@ -83,10 +83,12 @@ ul {
   font-weight: bolder;
   margin-top: 0;
   color: #ddd;
- padding-bottom: .25rem;
+  padding-bottom: .25rem;
   border-bottom: 2px solid #ddd;
   padding-right: .5rem;
   border-right: 2px solid #52aab6;
+
+
   /*letter-spacing: 0.2rem;*/
   transform: scaleX
 }
@@ -99,7 +101,7 @@ ul {
 
 .hud__middle__top {
   position: fixed;
-  top: 50%;
+  top: 45%;
   left: 50%;
   /*background-color*/: green;
   font-family: 'Ubuntu', sans-serif;
@@ -154,7 +156,8 @@ ul {
 .abilities {
   float: right;
   /*background-color*/: yellow;
-  border: 1px solid black;
+
+  position: relative;
 }
 
 .gun__ammo {
@@ -174,17 +177,39 @@ ul {
 
 .abilities img {
   opacity: ;
-  /*background-color*/: green;
+
+
 
 }
 
 .ability {
   height: 4rem;
+
+
+}
+
+.hotkeys {
+
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: -.5rem;
+  transform: rotate(2deg);
+}
+
+.hotkey {
+  padding: .2rem;
+  border: 1px solid black;
+  border-radius: 15%;
+  color: black;
+  font-size: 1.3rem;
+  font-family: sans-serif;
 }
 
 .gun {
   float: right;
-  border: 1px solid black;
+
   position: relative;
   bottom:1.25rem;
 
@@ -193,5 +218,6 @@ ul {
 .gun__img {
   height: 3.5rem;
   width: 9rem;
+  padding-right: 1rem;
   border-right: 2px solid #52aab6;
 }
