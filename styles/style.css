@@ -20,14 +20,15 @@ ul {
 
 
 .overwatch {
-  background: url('https://cdn2.pcadvisor.co.uk/cmsdata/reviews/3642282/overwatch-gameplay.jpg');
+  background: url('https://i.ytimg.com/vi/FrazexddyLg/maxresdefault.jpg');
   min-height: 100vh;
 }
 
 .hud {
 
   position:fixed;
-  top: 72%;
+
+  bottom: 4rem;
   padding-left: 2rem;
   padding-top: 1rem;
     /*necessary? */
@@ -123,14 +124,14 @@ ul {
 .skull {
   height: 3.75rem;
   width: 3.75rem;
-  opacity: .7;
+  opacity: .9;
   margin-bottom: 1rem;
 }
 
 .eliminated {
   position: relative;
   top: 4rem;
-  opacity: .7;
+  opacity: .9;
 }
 
 .kickass {
@@ -200,9 +201,9 @@ ul {
 
 .hotkey {
   padding: .2rem;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 15%;
-  color: black;
+  color: white;
   font-size: 1.3rem;
   font-family: sans-serif;
 }
